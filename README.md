@@ -51,7 +51,7 @@ Recommended path:
 Local path:
 
 ```bash
-conda activate ban6003
+conda activate base
 python -m pip install -r requirements.txt
 code .
 ```
