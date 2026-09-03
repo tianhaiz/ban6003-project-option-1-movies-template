@@ -38,6 +38,8 @@ This option uses movie metadata, user ratings, links, credits, and keywords. A c
 
 Important: `ratings.csv` is rating-event-level, not movie-level. Aggregate ratings by `movieId` before merging ratings into a movie-level ABT.
 
+See `data/README.md` for row meaning, expected keys, and join guidance for each file.
+
 ## Working Environment
 
 Recommended path:
@@ -75,6 +77,7 @@ Your final repository should include:
 - HTML report exported from the notebook
 - final ABT, if required
 - data dictionary
+- model metrics or structured analysis outputs
 - presentation or recording, according to Canvas instructions
 
 If your repository is private, make sure the instructor has access before submitting the link.
